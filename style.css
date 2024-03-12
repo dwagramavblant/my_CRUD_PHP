@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box; 
+    font-family:'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 50px ;
+    /* background-color: #20A920; */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: whitesmoke;
+    color: black;
+
+
+}
+a.button, a:hover, a.selected {
+    background-color: #20A920; 
+    color: white; 
+} 
+
+.filters{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto ;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px ; */
+    gap: 20px;
+
+
+}
+.container h2 {
+    grid-column-end: span 2;
+
+}
+.item{
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px ;
+
+}
+.single{
+    padding: 20px;
+}
+
+.info .buy{
+    padding:20px;
+
+}
+.amount {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    gap: 20px;
+    background-color: grey;
+    border-radius: 54px;
+
+}
+
+
+.amount button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.buy{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between ;
+}
+
+.single header{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.img{
+    max-width: 100%;
+}
+form{
+    display: grid;
+    gap: 10px;
+}
+
+label{
+    text-align: left;
+}
+
+label input, label textarea, label select{
+    width: 100%;
+}
